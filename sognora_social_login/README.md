@@ -1,16 +1,26 @@
 # sognora_social_login
 
-A new Flutter project.
+A Flutter package that provides a quick way to integrate social logins.
+
+## Description
+
+This library is designed to help developers integrate social login functionality into their Flutter applications swiftly.
+
+### Supported Social Logins
+
+- **Google**: Currently supported.
+- **Kakao**: Planned for future support.
+- **Apple**: Planned for future support.
+- **Naver**: Planned for future support.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+To use this package, follow the instructions below.
 
-A few resources to get you started if this is your first Flutter project:
+### Installation
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Add the following dependency to your `pubspec.yaml` file:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```yaml
+dependencies:
+  sognora_social_login: ^0.0.1

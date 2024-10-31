@@ -1,4 +1,6 @@
+import '../model/response.dart';
+
 abstract class ILoginProvider {
-  Future<void> signIn();
+  Future<SognoraResponse<Map<String, dynamic>>> signIn();  // Updated return type
   Future<void> signOut();
 }

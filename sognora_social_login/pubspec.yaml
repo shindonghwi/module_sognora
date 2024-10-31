@@ -1,8 +1,38 @@
+#----------------------- 아래는 개발용
+#name: sognora_social_login
+#description: A Flutter package for social login features.
+#version: 0.0.1
+#homepage: https://github.com/yourname/sognora_social_login
+#
+#
+#environment:
+#  sdk: '>=3.0.6 <4.0.0'
+#
+#dependencies:
+#  flutter:
+#    sdk: flutter
+#  cupertino_icons: ^1.0.2
+#  google_sign_in: ^6.1.6
+#  mockito: ^5.4.2
+#  patrol: ^2.3.2
+#  flutter_hooks: ^0.20.5
+#
+#dev_dependencies:
+#  flutter_test:
+#    sdk: flutter
+#  flutter_lints: ^2.0.0
+#  integration_test:
+#    sdk: flutter
+#
+#flutter:
+#  uses-material-design: true
+
+
+#----------------------- 아래는 배포용
 name: sognora_social_login
-description: A Flutter package for social login features.
+description: A Flutter package for Google social login features.
 version: 0.0.1
 homepage: https://github.com/yourname/sognora_social_login
-
 
 environment:
   sdk: '>=3.0.6 <4.0.0'
@@ -10,9 +40,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  cupertino_icons: ^1.0.2
   google_sign_in: ^6.1.6
-  mockito: ^5.4.2
 
 dev_dependencies:
   flutter_test:
